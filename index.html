@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landlord's Dashboard | Tenant Management System | T3ch Hefty</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="shortcut icon" href="assets/img/img.jpg" type="image/x-icon" />
+  </head>
+  <body id="body" data-mode="normal">
+    <!-- start the main dashboard wrapper  -->
+    <div class="main-wrapper">
+      <!-- start main dashboard container -->
+      <div class="dashboard-container">
+        <!-- start side bar -->
+        <div class="side-bar">
+          <div class="dashboard-title-section">
+            <h2>🎪Hefty Home</h2>
+            <p>Tenants Mgt System</p>
+          </div>
+          <div class="side-bar-items">
+            <ul>
+              <li class="dash-tab">⏬Dashboard</li>
+              <li id="tent-tab">👨‍✈️Tenants</li>
+              <li id="roles-tab">💼Roles</li>
+              <li id="prop-tab">🏠Properties</li>
+              <li id="maintainer-tab">🔨Maintainers</li>
+              <li id="supports-tab">💁Supports</li>
+              <li id="broadcast-tab">📢Broadcast</li>
+            </ul>
+          </div>
+        </div>
+        <!-- end side bar -->
+        <!-- start main details section -->
+        <div class="details-section">
+          <div class="dashboard-header">
+            <button id="btn">🌓</button>
+            <div class="profile-section">
+              <img src="assets/img/img.jpg" alt="Profile photo" />
+              <p>Landlord</p>
+              |<a href=""> Logout</a>
+            </div>
+          </div>
+
+          <div class="main-section">
+            <div class="place-marker">
+              <h3 id="place-marker-tab">
+                Dashboard <span class="breadcrumb"></span>
+              </h3>
+              <!-- create new tenant button -->
+              <button class="create-btn" id="create-tenant-btn">
+                👲Create Tenant
+              </button>
+              <!-- create broadcast button -->
+
+              <button class="create-btn" id="create-broadcast-btn">
+                📢Create Broadcast
+              </button>
+
+              <!-- create new maintainer button -->
+              <button class="create-btn" id="create-maintainer-btn">
+                🔨Create Maintainer
+              </button>
+
+              <!-- new property buttomn -->
+              <button class="create-btn" id="create-property-btn">
+                🏠 Create Property
+              </button>
+
+              <!-- roles button -->
+              <button class="create-btn" id="create-roles-btn">
+                💼 Create Roles
+              </button>
+
+              <!-- support button -->
+              <button class="create-btn" id="create-support-btn">
+                💁Create Supports
+              </button>
+            </div>
+
+            <div class="dashboard-contents">
+              <div class="main-section-content-container">
+                <h3>Total Property</h3>
+                <h2>6</h2>
+              </div>
+              <div class="main-section-content-container">
+                <h3>Total Tenants</h3>
+                <h2>500</h2>
+              </div>
+              <div class="main-section-content-container">
+                <h3>Total Expenses</h3>
+                <h2>#500, 000, 000</h2>
+              </div>
+              <div class="main-section-content-container">
+                <h3>Total Income</h3>
+                <h2>#1,050,555</h2>
+              </div>
+            </div>
+
+            <!-- start Tenants Section -->
+            <div class="tenant-section">
+              <div class="tenant-container">
+                <!-- close tenant details area -->
+                <!-- <div class="close-btn-area">
+                  <button id="tenant-close-btn">✖️</button>
+                </div> -->
+                 <!--end of close tenant details area -->
+
+                <div class="tenant-section-header">
+                  <img src="assets/img/img.jpg" alt="photo" />
+
+                  <div class="name-and-email-wrapper">
+                   
+                    <h2>Ndu Shadrach Hefty</h2>
+                    <p>shadrachndu@gmail.com</p>
+                  </div>
+                </div>
+                <div class="tenant-info">
+                  <h3>Information</h3>
+                  <small>Obinze Owerri, Imo State, NG 87894 </small> <br />
+                  <p><b>Phone:</b> 08039422817</p>
+                  <p><b>Family Members:</b>5</p>
+                  <p><b>Property:</b> Grace Land Estate</p>
+                  <p><b>Unit:</b> Unit 1</p>
+                  <p><b>Lease Start Date:</b> July 1, 2023</p>
+                  <p><b>Lease End Date:</b> July 1, 2024</p>
+                </div>
+                <div class="tenant-btn-groups">
+                  <button id="edit-btn">📝</button>
+                  <button id="delete-btn">❌</button>
+                </div>
+              </div>
+              <!-- second sample Tenant -->
+
+               <!-- start Tenants Section -->
+            <div class="tenant-section">
+              <div class="tenant-container">
+                <div class="tenant-section-header">
+                  <img src="assets/img/img.jpg" alt="photo" />
+
+                  <div class="name-and-email-wrapper">
+                   
+                    <h2>Ndu Shadrach Hefty</h2>
+                    <p>shadrachndu@gmail.com</p>
+                  </div>
+                </div>
+                <div class="tenant-info">
+                  <h3>Information</h3>
+                  <small>Obinze Owerri, Imo State, NG 87894 </small> <br />
+                  <p><b>Phone:</b> 08039422817</p>
+                  <p><b>Family Members:</b>5</p>
+                  <p><b>Property:</b> Grace Land Estate</p>
+                  <p><b>Unit:</b> Unit 1</p>
+                  <p><b>Lease Start Date:</b> July 1, 2023</p>
+                  <p><b>Lease End Date:</b> July 1, 2024</p>
+                </div>
+                <div class="tenant-btn-groups">
+                  <button id="edit-btn">📝</button>
+                  <button id="delete-btn">❌</button>
+                </div>
+              </div>
+              
+ 
+            <!-- stop Tenants SECtion -->
+
+            <!-- roles section -->
+            <div class="roles-section-cover">
+              <div class="roles-container">
+                <h1>💼Roles</h1>
+              </div>
+            </div>
+            <!-- end roles section -->
+
+            <!-- properties section -->
+            <div class="properties-section">
+              <div class="properties-container">
+                <h1>🏠Properties</h1>
+              </div>
+            </div>
+
+            <!-- end maintainers section -->
+            <div class="maintainers-section">
+              <div class="properties-container">
+                <h1>🔨Maintainers</h1>
+              </div>
+            </div>
+            <!-- end mainteners section -->
+
+            <!-- start supports section -->
+            <div class="supports-section">
+              <div class="properties-container">
+                <h1>💁Supports</h1>
+              </div>
+            </div>
+            <!-- end supports section -->
+
+            <!-- start Broadcast section -->
+            <div class="broadcast-section">
+              <div class="properties-container">
+                <h1>📢Broadcast</h1>
+              </div>
+            </div>
+            <!-- end broadcast section -->
+          </div>
+        </div>
+        <!-- end main details section -->
+      </div>
+      <!-- end main dashboard container -->
+    </div>
+    <!-- end main dashboard wrapper -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
